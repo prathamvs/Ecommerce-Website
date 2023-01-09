@@ -1,0 +1,394 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,600,700,800|Poppins:400,500,600,700|Yellowtail&display=swap);
+
+/******* Header1 ********/
+.header1 {
+    background-color: orangered;
+    z-index: 1000px;
+}
+/********** SOCIAL ***********/
+.social {
+    margin-left: 100px;
+}
+
+.social a i {
+    font-size: 30px;
+    margin: 10px;
+    color: aliceblue;
+    background: rgb(56, 50, 50);
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+/*************************** SEARCH ENGINE ***********************************/
+.header-info-center {
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.header-info-center input {
+    border-radius: 50px 50px 50px 50px;
+    border: #fff;
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(248, 237, 237);
+}
+
+/****************************** SEARCH ICON **********************/
+.header-info-center i {
+    cursor: pointer;
+    width: 30px;
+}
+/********************************* ABOUT THE WEBSITE INFO. ***********************/
+.header-info-right i {
+    color: #000;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+/***************************** CHOOSE LANGUAGE *********************/
+.language {
+    margin: 30px;
+}
+
+.language img {
+    padding-right: 15px;
+}
+
+.language select {
+    cursor: pointer;
+    background-color: orangered;
+    color: aliceblue;
+    border: orangered;
+}
+/***************************** MEDIA QUERIES OF HEADER 1 / HEADER TOP FOR TAB ****************************/
+@media only screen and (min-width:768px) and (max-width:1186px) {
+    .social{
+        margin-left: 20px;
+    }
+    .social a i {
+       font-size: 20px;
+       padding: 10px;
+    }
+    .header-info-center{
+        margin-left: -20px;
+    }
+    .header-info-center input{
+        width: 200px;
+        
+    }
+    .header-info-right i{
+        display: none;
+    }
+    .language{
+        display: none;
+    }
+    .navbar{
+       margin-right:10px;
+     }
+}
+/***************************** MEDIA QUERIES OF HEADER 1 / HEADER TOP FOR MOBILE ****************************/
+@media only screen and (min-width:193px) and (max-width:720px) {
+    .social a i {
+        display: none;
+    }
+   .header-info-right i{
+       display: none;
+   }
+   .language{
+       display: none;
+   }
+   .navbar{
+       margin-right: 5px;
+   }
+}
+
+/**************** HEADER 2 ************/
+.header2{
+    padding-top:10px;
+    background-color: #ffffff;
+}
+/* ************************* LOGO ********************* */
+.logo img{
+    margin-left: 130px;
+    cursor: pointer;
+}
+/* ********************** LIST FOR TRAVSERING ********************* */
+.header2 ul{
+    margin-right: 300px;
+}
+.header2 ul li a{
+    display: inline-block;
+    padding: 20px;
+    font-size: large;
+    color: #000;
+    text-decoration: none;
+}
+.header2 ul  .no{
+    display: none;
+}
+.header2 ul li a:hover{
+    color: orangered;
+}
+/* *********************** SIGN IN BUTTON *****************/
+.header2 .btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: orangered;
+    padding: 5px 25px 5px 25px;
+    text-decoration: none;
+    margin-left: 100px;
+  }
+  
+  .header2 .btn:hover {
+    background: #ec0505;
+    text-decoration: none;
+  }
+  /* *************************** MEDIA QUERIES FOR HEADER 2 / TABLET ************************* */
+  @media only screen and (min-width:768px) and (max-width:1186px){
+      .header2 .btn{
+          display: none;
+      }
+      .header2 .logo img{
+          width: 140px;
+          margin-left: 50px;
+      }
+      .header2 ul{
+          margin-right: 20px;
+      }
+      .header2 ul li a{
+          font-size: 18px;
+          padding: 5px;
+      }
+      .header2 ul  .no{
+          display: block;
+      }
+  }
+  /* *************************** MEDIA QUERIES FOR HEADER 2 / MOBILE ************************* */
+  @media only screen and (min-width:193px) and (max-width:720px){
+      .header2 .btn{
+          display: none;
+      }
+      .header2 .logo img{
+        width: 80px;
+        margin-left: 10px;
+      }
+      .header2 ul{
+          margin-right: 20px;
+      }
+      .header2 ul li a{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .header2 ul  .no{
+        display: block;
+    }
+  }
+ 
+/* Navigation Styling */
+.container #nav-tab a{
+    color: #ec0505;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Cards Styling */
+.container-fluid .cards{
+    margin-left: -550px;
+    margin-top: 50px;
+    text-align: center;
+}
+.cards{
+    padding-left: 200px;
+}
+.cards .card{
+    margin-top: 30px;
+    
+}
+/* Card text Styling */
+.card-title h5{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.card-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-text span{
+    color: orangered;
+}
+@media only screen and (min-width:768px) and (max-width:1086px){
+    .container-fluid .cards{
+        margin-left: -20px;
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width:193px) and (max-width:720px){
+    .container-fluid .cards{
+        margin-left: -20px;
+        margin-top: 50px;
+    }
+}
+/*************************** FOOTER SECTION ***************************/
+footer .footer .payment {
+    margin-left: 65px;
+    padding-right: 10px;
+}
+
+footer .footer p {
+    font-weight: bold;
+}
+
+footer .footer .facebook a {
+    font-size: 30px;
+    padding: 5px;
+
+}
+
+footer .footer .facebook {
+    margin-right: 120px;
+
+}
+
+footer .footer .facebook p {
+    margin-top: -80px;
+    margin-right: 90px;
+}
+
+/**************************** SECURITY SECTION *****************************/
+main .security {
+    margin-left: 80px;
+    margin-top: 80px;
+    padding-right: 80px;
+    text-align: center;
+    font-size: 15px;
+}
+
+main .security .trust {
+    border: solid;
+    border-color: rgb(238, 233, 233);
+    padding: 20px;
+    cursor: pointer;
+}
+
+/********************************** POLICY SECTION ****************************/
+main .policy {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding-right: 80px;
+}
+
+main .policy .subscribe input {
+    border: #fff;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+main .policy .subscribe span {
+    cursor: pointer;
+    background-color: rgb(14, 13, 13);
+    color: #fff;
+    font-size: 18px;
+}
+/****************************** MEDIA FOR MOBILE / FOOTER SECTION ************************/
+@media only screen and (min-width:193px) and (max-width:720px) {
+    footer .footer .facebook {
+        margin-right: 410px;
+
+    }
+
+    footer .footer .facebook p {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+/* Product Hover Icons Styling */
+
+.card {
+    position: relative;
+}
+/* Card Product Hover */
+.product-image .product-hover .container{
+    margin-top: -200px;
+    margin-bottom: 120px;
+}
+/* Additional Styles for function Class list */
+.hide{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
+.blur{
+    opacity: 0.2;
+}
+.sticky{
+    position: fixed;
+    margin: auto;
+    box-shadow: 0px 10px 20px rgb(221, 158, 158);
+    z-index: 1000;
+    behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Arrow Up */
+ #arrow  {
+    font-size: 50px;
+    color: yellowgreen;
+    position: sticky;
+    left: 1200px;
+    bottom: 50px;
+    cursor: pointer;
+    margin-left: 1380px;
+}
+/* Additional Styling For Class List */
+.hide{
+    display: none;
+}
+.show{
+    display:block;
+}
+.sticky{
+    position: fixed;
+    margin: auto;
+    box-shadow: 0px 10px 20px rgb(221, 158, 158);
+    z-index: 1000;
+    behavior: smooth;
+}

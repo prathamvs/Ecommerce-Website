@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Page</title>
+    <script src="https://kit.fontawesome.com/42ae17fc86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!--------------------------------- ICON COLOR ---------------------------->
+    <style>
+        .red-color {
+            color: red;
+        }
+
+        .blue-color {
+            color: rgb(7, 7, 85);
+        }
+
+        .light-color {
+            color: rgb(6, 33, 56);
+        }
+
+        .card {
+            background-image: url('Seller\ Page/seller.jpg');
+        }
+    </style>
+</head>
+
+<body>
+    <!-------------------------HEADER----------------------------->
+    <header>
+        <div id="header">
+            <!--------------------HEADER 1 ----------------------->
+            <div class="header1">
+                <div class="container-fluid">
+
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <!------------------------------- SOCIAL ------------------------------->
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook "></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <!-----------------SEARCH ENGINE-------------------->
+                        <div class="header-info-center">
+                            <input type="text" placeholder="Search Products & Brands">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <!---------------------ABOUT INFORMATION---------------------->
+                        <div class="header-info-right row">
+                            <a href="#"><i class="fas fa-phone-alt"></i></a>
+                            <!---------------- Navigation 1------------------------>
+                            <nav class="navbar navbar-expand-lg navbar-dark">
+                                <!-------------------------- TOGGLE BUTTON ---------------------------------->
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                                    <ul class="navbar-nav mx-auto">
+                                        <li class="nav-item "><a class="nav-link " href="#" id="contact">+91
+                                                9838203708</a></li>
+                                        <li class="nav-item "><a class="nav-link" href="#">Sell On Company</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Download App</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!---------------LANGUAGE SELECTION------------------>
+
+                        <div class="language">
+                            <div class="row">
+                                <img src="Seller page/usa.png" alt="" height="20px" width="50px" id="flag">
+                                <form action="#">
+                                    <select name="select" id="select1">
+                                        <option value="usa">USA</option>
+                                        <option value="uae">UAE</option>
+                                        <option value="canada">Canada</option>
+                                        <option value="japan">Japanese</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------------------HEADER 2------------------->
+            <div class="header2">
+                <div class="container-fluid ">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <!-----------------------LOGO--------------------->
+                        <div class="logo">
+                            <img src="Seller page/logo.png" alt="">
+                        </div>
+                        <!---------TRAVERSAL TO DIFFERENT AREA ------------>
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-------------------------- TOGGLE BUTTON NAVIGATION BAR 2---------------------------------->
+                            <button class="navbar-toggler " type="button" data-toggle="collapse"
+                                data-target="#navbarNav" aria-controls="navbarNavDropdown" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="col-xl-8 col-lg-6 col-md-8 col-sm-5">
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav ">
+                                        <li class="nav-item"><a href="#">Home</a> </li>
+                                        <li class="nav-item"><a href="#">Categories</a></li>
+                                        <li class="nav-item"><a href="#">Latest</a></li>
+                                        <li class="nav-item"><a href="#">Blog</a></li>
+                                        <li class="nav-item"><a href="#">Pages</a></li>
+                                        <li class="nav-item"><a href="#">Contact</a></li>
+                                        <li class="nav-item"><a class="no" href="#">Sign In</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!------------------------ SIGN IN BUTTTON ---------------------->
+                            <div class="btn" id="btn">
+                                Sign In
+                            </div>
+                            </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header3">
+           <marquee behavior="" direction="left">
+               <p>Dear Sir add your products  and enjoy the offer provided to you!</p>
+           </marquee>
+        </div>
+    </header>
+    <!-------------------------MAIN----------------------------->
+    <main>
+        <!-------------------------FIRST PART-------------------->
+        <div class="main" id="main">
+            <div class="continer-fluid ">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="right">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <!-------------LEFT DIV------------------------->
+                            <div class="man">
+                                <img src="Seller Page/man.png" alt="">
+                            </div>
+                            <div class="register">
+                                <h1>Register in <br>less than <br> 10 minutes !</h1>
+                            </div>
+                        </div>
+                        <!------------------- DETAILS OF PRODUCTS ------------------------>
+                        <div class="seller">
+                            <div class="row">
+                                <div class="A">
+                                    <img src="Seller Page/Image 165.png" alt="">
+                                    <p>Sell 24X7 across<br>3000 cities and towns</p>
+                                </div>
+                                <div class="B">
+                                    <img src="Seller Page/Image 166.png" alt="">
+                                    <p>Millions of users and<br>3,00,000 sellers <br>across India</p>
+                                </div>
+                                <div class="C">
+                                    <img src="Seller Page/Image 167.png" alt="">
+                                    <p>Quick Payments and<br>transperent processes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-----------------------------RIGHT DIV------------------------------>
+                    <div class="float-xl-right">
+                        <div class="right-section">
+                            <div class="form">
+                                <!------------------REGISTRATION FORM------------------->
+                                <form action="#">
+                                    <div class="register">
+                                        <h6>Register Today</h6>
+                                    </div>
+                                    <!--------EMAIL------->
+                                    <div class="mail">
+                                        <label for="email">Email</label><br>
+                                        <input type="text" name="Email" id="email" required>
+                                        <br>
+                                        <!--------MOBILE NO. --------->
+                                        <label for="mobile">Mobile No</label><br>
+                                        <input type="text" name="mobile" id="mobile" required>
+                                        <br>
+                                        <!--------- CATEGORIES OF PRODUCTS ------->
+                                        <div class="select">
+                                            <label for="products">Categoties of Products</label>
+                                            <form action="#">
+                                                <select name="select" id="select1" required>
+                                                    <option value="nothing">Nothing Selected</option>
+                                                    <option value="clothes">Clothes</option>
+                                                    <option value="plastic">Plastic Products</option>
+                                                    <option value="steel">Steel Products</option>
+                                                </select>
+                                            </form>
+                                        </div>
+                                        <!--------- PASSWORD --------->
+                                        <label for="password">Password</label><br>
+                                        <input type="password" name="password" id="password" required>
+                                        <br>
+                                        <!----------CONFIRM PASSWORD----->
+                                        <label for="confirm">Confirm Password</label><br>
+                                        <input type="password" name="confirm" id="confirm" required>
+                                        <div class="submit">
+                                            <input type="submit">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="down">
+                                <p1>OR</p1>
+                                <!-----------------------ADDITIONAL DETAILS----------------->
+                                <div class="call">
+                                    <h6>CALL US NOW +91 9969874504</h6>
+                                    <p>BETWEEN 11AM-8PM(IST)</p>
+                                </div>
+                                <div class="sell">
+                                    <h6>EMAIL US ON SELL@LORELIPSUM.COM</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------------------------SECOND PART------------------>
+        <div class="author" id="author">
+            <div class="row d-flex justify-content-between align-items-center">
+                <!-------------------DUMMY TEXT---------------------->
+                <div>
+                    <h2>SUCCEED WITH DUMMY TEXT</h2>
+                </div>
+                <!----------------------INFO. ABOUT SAFETY------------------->
+                <!--------------------- AUTHOR'S THEIR IMAGES AND TEXT-->
+                <div class="john">
+                    <div class="row">
+                        <div>
+                            <img src="Seller page/Image 162.png" alt="">
+                            <p>Loru Ipsum Trade Alert - Delivering the latest <br>
+                                product trends and Industry news straight to your <br>
+                                inbox. We'll never share your email address with a <br>
+                                third-party.</p>
+                            <h6>John Philipse</h6>
+                        </div>
+                        <div>
+                            <img src="Seller page/Image 164.png" alt="">
+                            <p>Loru Ipsum Trade Alert - Delivering the latest <br>
+                                product trends and Industry news straight to your <br>
+                                inbox. We'll never share your email address with a <br>
+                                third-party.</p>
+                            <h6>John Philipse</h6>
+                        </div>
+                        <div>
+                            <img src="Seller page/Image 161.png" alt="">
+                            <p>Loru Ipsum Trade Alert - Delivering the latest <br>
+                                product trends and Industry news straight to your <br>
+                                inbox. We'll never share your email address with a <br>
+                                third-party.</p>
+                            <h6>John Philipse</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------------SECURITY------------------------->
+            <div class="security">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="trust">
+                        <img src="Seller page/Image 34.png" alt="">
+                        <h6>100% SECURE PAYMENTS</h6>
+                        <p>Turpis Eleifend Vitae Malesuada Magna <br>
+                            Congue. Damus Id Ullamcorper Neque</p>
+                    </div>
+                    <div class="trust">
+                        <img src="Seller page/Image 35.png" alt="">
+                        <h6>TRUSTPAY</h6>
+                        <p>Turpis Eleifend Vitae Malesuada Magna <br>
+                            Congue. Damus Id Ullamcorper Neque</p>
+                    </div>
+                    <div class="trust">
+                        <img src="Seller page/Image 36.png" alt="">
+                        <h6>HELP CENTER</h6>
+                        <p>Turpis Eleifend Vitae Malesuada Magna <br>
+                            Congue. Damus Id Ullamcorper Neque</p>
+                    </div>
+                    <div class="trust">
+                        <img src="Seller page/Image 37.png" alt="">
+                        <h6>SHOP ON THE GO</h6>
+                        <p>Turpis Eleifend Vitae Malesuada Magna <br>
+                            Congue. Damus Id Ullamcorper Neque</p>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------ADDTIONAL INFORMATION------------------->
+            <div class="policy">
+                <!--********************************** POLICY SECTION ****************************-->
+                <div class="row d-flex justify-content-between ">
+                    <div>
+                        <h6>POLICY INFO</h6>
+                        <p>Privacy Policy</p>
+                        <p>Terms of Sale</p>
+                        <p>Terms of Use</p>
+                        <p>Report Abuse & Takedown Policy</p>
+                    </div>
+                    <div>
+                        <h6>COMPANY</h6>
+                        <p>About Us</p>
+                        <p>Core Values</p>
+                        <p>Careers</p>
+                        <p>Blog</p>
+                        <p>Sitemap</p>
+                    </div>
+                    <div>
+                        <h6>SNAPDEAL BUSINESS</h6>
+                        <p>Shopping App</p>
+                        <p>Sell on Snapdeal</p>
+                        <p>Advertise on Snapdeal</p>
+                        <p>Media Enquiries</p>
+                        <p>Be an Affiliate</p>
+                    </div>
+                    <div>
+                        <h6>NEED HELP?</h6>
+                        <p>FAQ</p>
+                        <p>Contact Us</p>
+                        <p>Online Shopping</p>
+                    </div>
+                    <div class="subscribe">
+                        <h6>SUBSCRIBE</h6>
+                        <div class="address">
+                            <input type="email" placeholder="Your Email Address"><span>Subscribe</span>
+                            <p>Register now to get updates on promotions <br>and coupons.
+                                Or <a href="#">Download App</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!------------------------- FOOTER AREA ----------------------------->
+    <footer>
+
+        <div class="footer">
+
+            <div class="payment">
+                <img src="Seller Page/Line 38.png" alt="">
+                <p>PAYMENT</p>
+                <img src="Seller Page/Image 38.png" alt="">
+                <img src="Seller Page/Image 39.png" alt="">
+                <img src="Seller Page/Image 40.png" alt="">
+                <img src="Seller Page/Image 41.png" alt="">
+                <img src="Seller Page/Image 42.png" alt="">
+                <img src="Seller Page/Image 43.png" alt="">
+            </div>
+            <div class="facebook">
+                <div class="text-right">
+                    <p>CONNECT</p>
+                    <a href="#"><i class="fa fa-facebook blue-color"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-youtube red-color"></i></a>
+                    <a href="#"><i class="fa fa-instagram light-color"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Seller Login Page to login -->
+    <div class="container1" id="container">
+        <div class="icon" id="icon"><i class="far fa-times-circle"></i>
+        </div>
+        <div class="card" id="card">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <h2>Login As Seller</h2>
+                    <br>
+                    <form action enctype="multipart/form-data" name="myForm" method="post">
+                        <fieldset>
+                            "Username"
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                            <br>
+                            "Password:"
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+
+                            <div class="submits">
+                                <button type="submit"><a href="item.html" style="text-decoration: none;">Login</a>
+                                </button>
+                                <br>
+                                <button type="reset"><a href=""
+                                        style="text-decoration: none;"><span>Reset</span></a></button>
+                                <br>
+                            </div>
+                        </fieldset>
+
+                    </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Coupon Page / Luck Offer -->
+    <div class="luck" id="luck">
+        <div class="card mx-auto ">
+            <div class="icon" id="cross"><i class="far fa-times-circle"></i>
+                <!------------------------------------CARD BODY START----------------------------------------------->
+                <div class="card-body">
+                    <!--------------------------------LOGO OF WEBSITE--------------------------------------------->
+                    <div>
+                        <img src="Seller Page/logo.png" alt="#">
+                    </div>
+                    <!----------------------------PLEASURE AREA------------------------------------------------------>
+                    <div class="thank">
+                        <h1>THANK YOU</h1>
+                        <p><span>FOR SELLING TO US</span> </p>
+                    </div>
+                    <!---------------------------------% OFFER AREA---------------------------------------------------->
+                    <div class="order">
+                        <p><span>CONTINUE TO ADD</span></p>
+                        <div class="off">
+                            <h2>PRODUCTS</h2>
+                        </div>
+                        <p1><span> TO OUR SITE</span></p1>
+                    </div>
+                    <!--------------------------------------COUPOUN NO / CODE--------------------------------------------->
+                    <div class="coupon">
+                        <p class="code">Use Coupon Code :G34EFT740S</p>
+                        <p class="limit">FOR MORE PROFITS FURTHER</p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------END----------------------------------------------->
+
+        </div>
+    </div>
+    <!---------- Up arrow  -------->
+    <div id="arrow" class="show">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <!-----JavaScript functions---->
+    <script src="function.js"></script>
+</body>
+
+</html>
